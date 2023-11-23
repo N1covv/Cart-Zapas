@@ -1,63 +1,16 @@
-const productos = [
-    {
-        id: "air-Force1",
-        titulo:"Air Force 1",
-        imagen:"./img/Air Force 1.jfif",
-        precio: 99999
-    },
-    {
-        id: "nike-sb",
-        titulo:"Nike SB",
-        imagen:"./img/NikeSB.jfif",
-        precio: 110000
-    },
-    {
-        id: "nikesb-travis",
-        titulo:"Nike SB Travis Scott",
-        imagen:"./img/NikeSB TravisSc.jfif",
-        precio: 150000
-    },
-    {
-        id: "jordan-1",
-        titulo:"Nike Jordan 1",
-        imagen:"./img/Jordan 1.jfif",
-        precio: 120000
-    },
-    {
-        id: "jordan-retro-4",
-        titulo:"Nike Jordan Retro 4",
-        imagen:"./img/Jordan Retro4.jfif",
-        precio: 130000
-    },
-    {
-        id: "adidas-flow",
-        titulo:"Adidas 84 Forum Low",
-        imagen:"./img/Adidas 84 FLow.jfif",
-        precio: 89000
-    },
-    {
-        id: "dc-court",
-        titulo:"Dc Court Graffik",
-        imagen:"./img/Dc Court Graffik.jfif",
-        precio: 59990
-    },
-    {
-        id: "dc-pensford",
-        titulo:"Dc Pensford",
-        imagen:"./img/Dc Pensford.jfif",
-        precio: 55000
-    },
-    {
-        id: "vans-sk8",
-        titulo:"Vans SK8",
-        imagen:"./img/Vans Sk8.jfif",
-        precio: 60900
-    }
-]
+let productos = []
+
+fetch("./productos.json")
+    .then(response => response.json())
+    .then(data => {
+        productos = data
+        cargarLosProductos(productos)
+    })
 
 const contenedorProductos = document.querySelector(".contenedor")
 let agregarProductos = document.querySelectorAll(".agregar-producto")
 const numero = document.querySelector("#numero")
+
 
 function cargarLosProductos() {
 
@@ -78,7 +31,6 @@ function cargarLosProductos() {
     agregarProductos2()
 }
 
-cargarLosProductos()
 
 function agregarProductos2() {
     agregarProductos = document.querySelectorAll(".agregar-producto")
@@ -88,8 +40,8 @@ function agregarProductos2() {
     })
 }
 
-let productosEnCarrito
 
+let productosEnCarrito
 let productosEnCarritoLS = localStorage.getItem("productos-en-carrito")
 
 if (productosEnCarritoLS) {
@@ -98,6 +50,7 @@ if (productosEnCarritoLS) {
 } else {
     productosEnCarrito = []
 }
+
 
 function agregarAlCarrito(e) {
 
@@ -116,6 +69,7 @@ function agregarAlCarrito(e) {
 
     localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito))
 }
+
 
 function actualizarNumero () {
     let nuevoNumero = productosEnCarrito.reduce((acc, producto) => acc + producto.cantidad, 0)
