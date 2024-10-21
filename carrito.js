@@ -27,15 +27,15 @@ function cargarLosProductos(){
                         <h3>${producto.titulo}</h3>
                     </div>  
                     <div class="carrito-productos-cantidad">
-                        <p>${producto.cantidad}</p>
+                        <p> Amount: ${producto.cantidad}</p>
                     </div>
                     <div class="carrito-producto-precio">
-                        <p>${producto.precio}</p>
+                        <p>Price: ${producto.precio}usd</p>
                     </div>
                     <div class="carrito-producto-subtotal">
-                        <p>${producto.precio * producto.cantidad}</p>
+                        <p>Total: ${producto.precio * producto.cantidad}usd</p>
                     </div>
-                    <button class="carrito-eliminar" id="${producto.id}" >Eliminar productos</button>
+                    <button class="carrito-eliminar" id="${producto.id}" >Delete Product</button>
             `
 
             carritoProductos.append(div)
@@ -98,5 +98,5 @@ function vaciarElCarrito () {
 
 function totalCompra() {
     const totalCalculado = productosEnCarrito.reduce((acc, producto) => acc + (producto.precio * producto.cantidad), 0)
-    total.innerText = `$${totalCalculado}`
+    total.innerText = `${totalCalculado}usd`
 }

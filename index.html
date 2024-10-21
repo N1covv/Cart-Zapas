@@ -1,32 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda Zapas</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=shopping_cart" />
 </head>
+
 <body>
-    <nav>
+
+    <nav class="">
         <div class="logo-titulo">
-            <div class="centroLogo">
-                <img class="logo" src="./img/Logo.jpg" alt="Logo">
-                <h1 class="title">TIENDA ZAPATILLAS</h1>
+            <div class="container">
+                <img class="logo" src="./img/GodOfShoap2.png" alt="Logo">
             </div>
         </div>
-        <div>
-            <a class="carrito" href="./carrito.html"> CARRITO <span id="numero" class="numero"> 0 </span></a>
+        <div class="cart">
+            <a class="carrito" href="./carrito.html"><span class="material-symbols-outlined">
+                shopping_cart 
+                </span>  </a>
+                <span id="numero" class="numero"> 0 </span>          
         </div>
-        
     </nav>
-    
+    <section>
+        <div class=""> <img src="./img/Banner3.png" alt="" class="background"></div>
+    </section>
     <main>
         <div class="contenedor">
         </div>
     </main>
-    
+
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="./app.js"></script>
 </body>
+
 </html>

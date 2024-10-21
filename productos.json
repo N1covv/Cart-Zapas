@@ -1,56 +1,56 @@
 [
     {
-        "id": "air-Force1",
-        "titulo":"Air Force 1",
-        "imagen":"./img/Air Force 1.jfif",
-        "precio": 99999
+        "id": "dc-court-graffik",
+        "titulo":"DC Court Graffik B&W",
+        "imagen":"./img/DC-Court-Graffik-Black-&-White-Skate-Shoes-_314688-front-US.png",
+        "precio": 150
     },
     {
-        "id": "nike-sb",
-        "titulo":"Nike SB",
-        "imagen":"./img/NikeSB.jfif",
-        "precio": 110000
+        "id": "vans-knu-skool-black",
+        "titulo":"Vans Knu Skool Black",
+        "imagen":"./img/Vans-Knu-Skool-Black-Skate-Shoes-_384682-front-US.png",
+        "precio": 127
     },
     {
-        "id": "nikesb-travis",
-        "titulo":"Nike SB Travis Scott",
-        "imagen":"./img/NikeSB TravisSc.jfif",
-        "precio": 150000
+        "id": "adidas-originals-campus00s",
+        "titulo":"Adidas Originals Campus00s",
+        "imagen":"./img/adidas-Originals-Campus-00s-Core-Black-&-Cloud-White-Shoes-_384560-front-US.png",
+        "precio": 220
     },
     {
-        "id": "jordan-1",
-        "titulo":"Nike Jordan 1",
-        "imagen":"./img/Jordan 1.jfif",
-        "precio": 120000
+        "id": "adidas-forum-84-low",
+        "titulo":"Adidas Forum 84 Low W&C",
+        "imagen":"./img/adidas-Forum-84-Low-ADV-White-&-Cream-Shoes-_357580-front-US.png",
+        "precio": 164
     },
     {
-        "id": "jordan-retro-4",
-        "titulo":"Nike Jordan Retro 4",
-        "imagen":"./img/Jordan Retro4.jfif",
-        "precio": 130000
+        "id": "nike-sb-force-58",
+        "titulo":"Nike SB Force 58",
+        "imagen":"./img/Nike-SB-Force-58-Photon-Dust,-Black-&-White-Skate-Shoes-_368992-front-US.png",
+        "precio": 130
     },
     {
-        "id": "adidas-flow",
-        "titulo":"Adidas 84 Forum Low",
-        "imagen":"./img/Adidas 84 FLow.jfif",
-        "precio": 89000
+        "id": "dc-court-graffik",
+        "titulo":"Dc Court Graffik W&B",
+        "imagen":"./img/DC-Court-Graffik-White-&-Black-Skate-Shoes-_378795-front-US.png",
+        "precio": 150
     },
     {
-        "id": "dc-court",
-        "titulo":"Dc Court Graffik",
-        "imagen":"./img/Dc Court Graffik.jfif",
-        "precio": 59990
+        "id": "adidas-nora-light-blue",
+        "titulo":"Adidas Nora Light-Blue",
+        "imagen":"./img/adidas-Nora-Light-Blue,-Cloud-White-&-Gum-Skate-Shoes-_387589-front-US.png",
+        "precio": 200
     },
     {
-        "id": "dc-pensford",
-        "titulo":"Dc Pensford",
-        "imagen":"./img/Dc Pensford.jfif",
-        "precio": 55000
+        "id": "ripndip-lord-nermal",
+        "titulo":"RIPNDIP Lord Nermal",
+        "imagen":"./img/RIPNDIP-Lord-Nermal-Cloud-Black-Slide-Sandals-_387851-front-US.png",
+        "precio": 100
     },
     {
-        "id": "vans-sk8",
-        "titulo":"Vans SK8",
-        "imagen":"./img/Vans Sk8.jfif",
-        "precio": 60900
+        "id": "etines-x-santacruz",
+        "titulo":"Etines x SantaCruz Fader",
+        "imagen":"./img/Etnies-x-Santa-Cruz-Fader-Dark-Grey-&-Black-Skate-Shoes-_386528-front-US.png",
+        "precio": 300
     }
 ]

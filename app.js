@@ -21,8 +21,8 @@ function cargarLosProductos() {
         div.innerHTML = `
             <img src="${producto.imagen}" alt="${producto.nombre}" class="zapas">
             <p class="producto">${producto.titulo}</p>
-            <p class="precio">$${producto.precio}</p>
-            <button class="agregar-producto"id="${producto.id}">Agregar al carrito</button> 
+            <p class="price">${producto.precio}usd</p>
+            <button class="agregar-producto button"id="${producto.id}">AGREGAR AL CARRITO</button> 
         `
         contenedorProductos.append(div)
 
