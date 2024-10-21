@@ -46,9 +46,11 @@ nav:hover {
 .contenedor {
     display: flex;
     flex-wrap: wrap;
-    width: 70%;
+    justify-content: center;
+    width: 100%;
     gap: 1rem;
-    margin: 20px;
+    margin: 0;
+    padding: 2rem;
     color: rgb(0, 0, 0);
     font-weight: bold;
     font-family: "Didact Gothic", sans-serif;
@@ -136,7 +138,7 @@ nav:hover {
     padding: 0.5rem;
     color: rgb(255, 255, 255);
     border-radius: 3px;
-    width: 30%;
+    width: 22%;
     font-size: 7pt;
     font-family: "Didact Gothic", sans-serif;
     font-weight: 400;
