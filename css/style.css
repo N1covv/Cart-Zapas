@@ -7,74 +7,9 @@
     box-sizing: border-box;
 
 }
-
-body {
-    /* 
-    background-image: url(../img/Fondo.jpg); */
-    /* 
-    background-color: #143109; */
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    width: 100%;
-    transition: background-color 0.3s ease;
-}
-
-nav:hover {
-    background-color: #343434
-}
-
-.nav-cart {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-
-.title {
-    text-align: center;
-    font-size: 1rem;
-}
-
-.contenedor {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-    gap: 1rem;
-    margin: 0;
-    padding: 2rem;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    font-family: "Didact Gothic", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.producto {
-    flex: 0 0 calc(33.33% - 20px);
-    padding-top: 0.2rem;
-    padding-bottom: 0.5rem;
-
-}
-
 .price {
     font-weight: bold;
 }
-/*  */
-.producto img {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-}
-/*  */
 
 .carritoProducto {
     display: flex;
@@ -87,6 +22,7 @@ nav:hover {
     width: 100%;
     justify-content: space-between;
     background-color: rgb(255, 255, 255);
+    font-family: "Didact Gothic", sans-serif;
     color: black;
     padding: 1rem;
     align-items: center;
@@ -113,6 +49,52 @@ nav:hover {
 }
 
 /* --------------------- NEW ---------------------*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+nav:hover {
+    background-color: #343434
+
+}
+
+.nav-cart {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    gap: 1rem;
+    margin: 0;
+    padding: 2rem;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: "Didact Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.producto {
+    flex: 0 0 calc(33.33% - 20px);
+    padding-top: 0.2rem;
+    padding-bottom: 0.5rem;
+}
+.producto img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
 .bg-color {
     background-color: #D0D6B3;
 }
